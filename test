@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="resources/css/index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design Guide</title>
+</head>
+
+<body>
+    <h1>My Website Style Guide</h1>
+    <div class="container">
+        <h2>Colors</h2>
+        <div class="color-container">
+            <div class="color-panel shrek-green">
+                <p class="color-label">Shrek Green</p>
+                <p class="color-hex">#037007</p>
+            </div>
+            <div class="color-panel sour-pink">
+                <p class="color-label">Sour Pink</p>
+                <p class="color-hex">#ff00ff</p>
+            </div>
+            <div class="color-panel blood">
+                <p class="color-label">Blood</p>
+                <p class="color-hex">#ff000d</p>
+            </div>
+            <div class="color-panel bart">
+                <p class="color-label">Bart</p>
+                <p class="color-hex">#ffc400</p>
+            </div>
+        </div>
+        <div class="container">
+            <h2>Fonts</h2>
+            <div class="font-container">
+                <div class="font-panel">
+                    <p class="font-panel source-code-pro">Source Code Pro</p>
+                    <p class="regular source-code-pro">Colin stinks</p>
+                    <p class="bold source-code-pro">Colin stinks</p>
+                    <p class="italic source-code-pro">Colin stinks</p>
+                </div>
+                <div class="font-panel">
+                    <p class="font-panel nunito-sans">Nunito Sans</p>
+                    <p class="regular nunito-sans">Colin stinks</p>
+                    <p class="bold nunito-sans">Colin stinks</p>
+                    <p class="italic nunito-sans">Colin stinks</p>
+                </div>
+                <div class="font-panel">
+                    <p class="font-panel poppins">Poppins</p>
+                    <p class="regular poppins">Colin stinks</p>
+                    <p class="bold poppins">Colin stinks</p>
+                    <p class="italic poppins">Colin stinks</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2>Text Styles</h2>
+            <div class="text-container">
+                <div class="text-panel">
+                    <h1>H1: Main page heading</h1>
+                    <ul>
+                        <li>
+                            :: marker
+                            "Font-weight: 700 (bold)"
+                        </li>
+                        <li>
+                            :: marker
+                            "Font-size: 26px"
+                        </li>
+                        <li>
+                            :: marker
+                            "Font-family: Nunito Sans"
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-panel">
+                    <h2>H2: Subheading</h2>
+                    <ul>
+                        <li>
+                            :: marker
+                            "Font-weight: 500"
+                        </li>
+                        <li>
+                            :: marker
+                            "Font-size: 18px"
+                        </li>
+                        <li>
+                            :: marker
+                            "Font-family: Poppins"
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-panel">
+                    <p>P: Paragraph text</p>
+                    <ul>
+                        <li>
+                            :: marker
+                            "Font-weight: 400 (regular)"
+                        </li>
+                        <li>
+                            :: marker
+                            "Font-size: 14px"
+                        </li>
+                        <li>
+                            :: marker
+                            "Font-family: Poppins"
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.shrek-green {
+    background-color: #037007;
+    color: white;
+}
+.sour-pink {
+    background-color: #ff00ff;
+    color: white;
+}
+.blood {
+    background-color: #ff000d;
+    color: white;
+}
+.bart {
+    background-color: #ffc400;
+    color: white;
+}
+.container {
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+}
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+div {
+    display: block;
+}
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0 10%;
+}
